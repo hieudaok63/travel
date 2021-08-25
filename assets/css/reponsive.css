@@ -1,0 +1,234 @@
+/* Mobile & Tablet */ 
+@media (max-width: 1023px) {
+    .navbar__menu {
+        display: none;
+    }
+
+    .navbar {
+        display: inline;
+    }
+    .logo {
+        width: unset;
+    }
+    .navbar__bars {
+        text-align: center;
+    }
+    .header  {
+        background-color: #555555;
+    }
+
+    .banner__body {
+        display:unset !important;
+    }
+    .footer__background {
+        height: unset;
+    }
+
+    .toggle__body {
+        display: none;
+    }
+
+    .toggle__menu {
+        width: 302px;
+    }
+
+    .toggle__body-icon {
+        color: #fff;
+        z-index: 1;
+    }
+
+    .toggle__body-reponsive {
+        display: block !important;
+        height: unset;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width:1023px) {
+    .slider__search {
+        margin: 0;
+    }
+    .slider {
+        height: 1300px;
+    }
+
+    .slider__service-list {
+        padding: 24px;
+        margin: 16px;
+    }
+    .body__slide {
+        margin: 0 -40px;
+    }
+
+    .banner__heading {
+        padding: 0 30px;
+    }
+    .banner__heading-btn {
+        margin: 25px 0 25px 35%;
+    }
+    .beaches__heading-desc {
+        width: 100%;
+    }
+
+    .heading__btn {
+        margin: 38px 0;
+        min-width: 165px;
+    }
+    .beaches__slide-time {
+        width: 100%;
+        left: unset;
+        justify-content: space-evenly;
+        position: unset;
+        margin: -3px 0 0 0;
+    }
+    .introduce__word-view {
+        padding-bottom: 18px;
+    }
+
+    .footer__end {
+        margin: 0 -32px;
+    }
+
+    .footer__mid {
+        margin: 0 -32px;
+    }
+
+    .footer__heading-search {
+        margin-left: -32px;
+        width: 500px;
+        margin-top: 50px;
+    }
+
+    .btn__details--active2-color3 {
+        padding: 12px 52px;
+    }
+    .sale__icon {
+        bottom: -21px;
+    }
+} 
+
+/* Mobile */
+@media (max-width: 739px) {
+    .app {
+        overflow: hidden;
+    }
+
+    .slider {
+        height: 1400px;
+    }
+
+    .slider__heading {
+        padding: 160px 57px 0 57px;
+    }
+
+    .slider__heading-desc {
+        padding: 35px 57px 65px 57px;
+    }
+
+    .slider__search {
+        margin: 0 57px;
+    }
+
+    .slider__service {
+        margin: 0 70px !important;
+    }
+
+    .slider__service-list {
+        margin: 15px 0;
+    }
+
+    .separate-color5,
+    .separate-color4,
+    .separate-color3,
+    .separate-color2 {
+        display: inline-block;
+    }
+
+    .separate::before {
+        bottom: 3px;
+    }
+
+    .content__heading-big {
+        padding: 25px 35px 54px 35px;
+    }
+
+    .banner__heading {
+        padding: 0 57px;
+    }
+
+    .banner__heading-btn {
+        margin-left: 20% ;
+    }
+
+    .banner__heading {
+        margin-bottom: 65px;
+    }
+
+    .content__body {
+        margin: 0 40px;
+    }
+
+    .beaches__body-book {
+        padding: 0 78px;
+    }
+
+    .btn__all {
+        display: inherit;
+        margin-bottom: 40px;
+    }
+
+    .introduce__word  {
+        padding: 0 36px;
+    }
+
+    .introduce__word-view {
+        padding-bottom: 20px;
+    }
+
+    .content__sale {
+        padding: 0 30px;
+    }
+
+    .footer__background {
+        padding: 0 57px;
+    }
+
+    .beaches__slide-time {
+        margin-bottom: -98%;
+        position: absolute;
+        left: 0;
+    }
+
+    .content__introduce {
+        margin-top: 530px !important;
+    }
+
+    .beaches__slide-all::after {
+        display: none;
+    }
+
+    .beaches__slide-number,
+    .beaches__slide-day {
+        margin-left: -56px;
+    }
+
+    .footer__heading-search {
+        width: 300px;
+        margin: 36px 0;
+    }
+
+    .btn__details--active2-color3 {
+        padding: 12px 130px;
+    }
+
+    .footer__end {
+        display: inline-block;
+        margin: 0 -5px;
+        padding: 14px 27px;
+        text-align: center;
+    }
+
+    .footer__end-text:first-child {
+        margin-bottom: 27px;
+    }
+}
